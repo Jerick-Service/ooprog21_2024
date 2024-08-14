@@ -1,0 +1,13 @@
+public class MovieQuote {
+    public static void main(String[] args) {
+        String quote = "I'll be back";
+        String movie = "The Terminator";
+        String character = "The Terminator";
+        int year = 1984;
+
+        System.out.println("Quote: " + quote);
+        System.out.println("Movie: " + movie);
+        System.out.println("Character: " + character);
+        System.out.println("Year: " + year);
+    }
+}
