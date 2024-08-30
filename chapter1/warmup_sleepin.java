@@ -4,9 +4,9 @@ public class SleepIn {
     }
 
     public static void main(String[] args) {
-        // Test cases
-        System.out.println(sleepIn(false, false)); // true
-        System.out.println(sleepIn(true, false));  // false
-        System.out.println(sleepIn(false, true));  // true
+        
+        System.out.println(sleepIn(false, false)); 
+        System.out.println(sleepIn(true, false));  
+        System.out.println(sleepIn(false, true)); 
     }
 }
