@@ -1,9 +1,9 @@
 public class MovieQuote {
     public static void main(String[] args) {
-        String quote = "I'll be back";
-        String movie = "The Terminator";
-        String character = "The Terminator";
-        int year = 1984;
+        String quote = " “May the Force be with you.”";
+        String movie = "Star Wars";
+        String character = "Star Wars";
+        int year = 1977;
 
         System.out.println("Quote: " + quote);
         System.out.println("Movie: " + movie);
