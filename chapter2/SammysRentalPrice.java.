@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class SammysRentalPrice {
+    public  static void main (String[] args){
+    
+
+    
+    Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the number of minutes you rented a piece of sports equipment: ");
+        int minsRented= scanner.nextInt();
+
+        int hours = minsRented/ 60;
+        int addMinutes = minsRented % 60;
+
+        double rentalCost = hours * 40 + addMinutes;
+
+         System.out.println(" ssssssssssssssssssssssssssssssssss");
+    System.out.println("s  Sammy's make it fun in the sun  s");
+    System.out.println(" ssssssssssssssssssssssssssssssssss");
+        System.out.println("Hours: " + hours);
+        System.out.println("Minutes: " + addMinutes);
+        System.out.println("Total Price: $" + String.format("%.2f", rentalCost));
+    
+    
+}
+}
