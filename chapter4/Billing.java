@@ -6,8 +6,7 @@ public class BillingActivity{
    double price = scan.nextDouble();
    System.out.println("Please Input the Quantity");
    int quantity = scan.nextInt();
-   System.out.println("Please Input the Number of Coupon Discount");
-   System.out.println("1 Coupon is 5% off");
+   System.out.println("Please Input this Discount");
    int couponDiscount = scan.nextInt();
    computeBill(price);
    computeBill( price,  quantity);
@@ -22,9 +21,9 @@ public class BillingActivity{
    System.out.println("The total price for the bill is: $"+total);
    }
    public static void computeBill(double price, int quantity, int couponDiscount){
-   double subtotal = ((price*0.08) + price)*quantity;
-   double total = subtotal-(subtotal*(0.05* couponDiscount));
-   System.out.println("The total price for the bill is: $"+total);
+   double total1 = ((price*0.08) + price)*quantity;
+   double totalFinal = total1-couponDiscount;
+   System.out.println("The total price for the bill is: $"+totalFinal);
    }
 
     }
